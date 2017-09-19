@@ -91,13 +91,14 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "=3.10.1",
+    "mocha": "^3.5.3",
     "scryptsy": "=2.0.0"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "litecore-build": "litecoin-project/litecore-build",
+    "litecore-build": "https://github.com/litecoin-project/litecore-build#dev-09/17",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
