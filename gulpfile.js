@@ -1,5 +1,5 @@
 
 
-var litecoreTasks = require('litecore-build');
+var unitedcoreTasks = require('unitedcore-build');
 
-litecoreTasks('lib');
+unitedcoreTasks('lib');

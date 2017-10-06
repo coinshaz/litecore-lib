@@ -1,71 +1,71 @@
 'use strict';
 
-var litecore = module.exports;
+var unitedcore = module.exports;
 
 // module information
-litecore.version = 'v' + require('./package.json').version;
-litecore.versionGuard = function(version) {
+unitedcore.version = 'v' + require('./package.json').version;
+unitedcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of litecore-lib found. ' +
-      'Please make sure to require litecore-lib and check that submodules do' +
-      ' not also include their own litecore-lib dependency.';
+    var message = 'More than one instance of unitedcore-lib found. ' +
+      'Please make sure to require unitedcore-lib and check that submodules do' +
+      ' not also include their own unitedcore-lib dependency.';
     throw new Error(message);
   }
 };
-litecore.versionGuard(global._litecore);
-global._litecore = litecore.version;
+unitedcore.versionGuard(global._unitedcore);
+global._unitedcore = unitedcore.version;
 
 // crypto
-litecore.crypto = {};
-litecore.crypto.BN = require('./lib/crypto/bn');
-litecore.crypto.ECDSA = require('./lib/crypto/ecdsa');
-litecore.crypto.Hash = require('./lib/crypto/hash');
-litecore.crypto.Random = require('./lib/crypto/random');
-litecore.crypto.Point = require('./lib/crypto/point');
-litecore.crypto.Signature = require('./lib/crypto/signature');
+unitedcore.crypto = {};
+unitedcore.crypto.BN = require('./lib/crypto/bn');
+unitedcore.crypto.ECDSA = require('./lib/crypto/ecdsa');
+unitedcore.crypto.Hash = require('./lib/crypto/hash');
+unitedcore.crypto.Random = require('./lib/crypto/random');
+unitedcore.crypto.Point = require('./lib/crypto/point');
+unitedcore.crypto.Signature = require('./lib/crypto/signature');
 
 // encoding
-litecore.encoding = {};
-litecore.encoding.Base58 = require('./lib/encoding/base58');
-litecore.encoding.Base58Check = require('./lib/encoding/base58check');
-litecore.encoding.BufferReader = require('./lib/encoding/bufferreader');
-litecore.encoding.BufferWriter = require('./lib/encoding/bufferwriter');
-litecore.encoding.Varint = require('./lib/encoding/varint');
+unitedcore.encoding = {};
+unitedcore.encoding.Base58 = require('./lib/encoding/base58');
+unitedcore.encoding.Base58Check = require('./lib/encoding/base58check');
+unitedcore.encoding.BufferReader = require('./lib/encoding/bufferreader');
+unitedcore.encoding.BufferWriter = require('./lib/encoding/bufferwriter');
+unitedcore.encoding.Varint = require('./lib/encoding/varint');
 
 // utilities
-litecore.util = {};
-litecore.util.buffer = require('./lib/util/buffer');
-litecore.util.js = require('./lib/util/js');
-litecore.util.preconditions = require('./lib/util/preconditions');
+unitedcore.util = {};
+unitedcore.util.buffer = require('./lib/util/buffer');
+unitedcore.util.js = require('./lib/util/js');
+unitedcore.util.preconditions = require('./lib/util/preconditions');
 
 // errors thrown by the library
-litecore.errors = require('./lib/errors');
+unitedcore.errors = require('./lib/errors');
 
 // main bitcoin library
-litecore.Address = require('./lib/address');
-litecore.Block = require('./lib/block');
-litecore.MerkleBlock = require('./lib/block/merkleblock');
-litecore.BlockHeader = require('./lib/block/blockheader');
-litecore.HDPrivateKey = require('./lib/hdprivatekey.js');
-litecore.HDPublicKey = require('./lib/hdpublickey.js');
-litecore.Networks = require('./lib/networks');
-litecore.Opcode = require('./lib/opcode');
-litecore.PrivateKey = require('./lib/privatekey');
-litecore.PublicKey = require('./lib/publickey');
-litecore.Script = require('./lib/script');
-litecore.Transaction = require('./lib/transaction');
-litecore.URI = require('./lib/uri');
-litecore.Unit = require('./lib/unit');
+unitedcore.Address = require('./lib/address');
+unitedcore.Block = require('./lib/block');
+unitedcore.MerkleBlock = require('./lib/block/merkleblock');
+unitedcore.BlockHeader = require('./lib/block/blockheader');
+unitedcore.HDPrivateKey = require('./lib/hdprivatekey.js');
+unitedcore.HDPublicKey = require('./lib/hdpublickey.js');
+unitedcore.Networks = require('./lib/networks');
+unitedcore.Opcode = require('./lib/opcode');
+unitedcore.PrivateKey = require('./lib/privatekey');
+unitedcore.PublicKey = require('./lib/publickey');
+unitedcore.Script = require('./lib/script');
+unitedcore.Transaction = require('./lib/transaction');
+unitedcore.URI = require('./lib/uri');
+unitedcore.Unit = require('./lib/unit');
 
 // dependencies, subject to change
-litecore.deps = {};
-litecore.deps.bnjs = require('bn.js');
-litecore.deps.bs58 = require('bs58');
-litecore.deps.Buffer = Buffer;
-litecore.deps.elliptic = require('elliptic');
-litecore.deps.scryptsy = require('scryptsy');
-litecore.deps._ = require('lodash');
+unitedcore.deps = {};
+unitedcore.deps.bnjs = require('bn.js');
+unitedcore.deps.bs58 = require('bs58');
+unitedcore.deps.Buffer = Buffer;
+unitedcore.deps.elliptic = require('elliptic');
+unitedcore.deps.scryptsy = require('scryptsy');
+unitedcore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking
-litecore._HDKeyCache = require('./lib/hdkeycache');
-litecore.Transaction.sighash = require('./lib/transaction/sighash');
+unitedcore._HDKeyCache = require('./lib/hdkeycache');
+unitedcore.Transaction.sighash = require('./lib/transaction/sighash');

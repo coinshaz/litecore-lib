@@ -1,7 +1,7 @@
 {
-  "name": "litecore-lib",
-  "version": "0.13.21",
-  "description": "A pure and powerful JavaScript Litecoin library.",
+  "name": "unitedcore-lib",
+  "version": "0.1.1",
+  "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -61,6 +61,7 @@
     }
   ],
   "keywords": [
+    "unitedcoin",
     "litecoin",
     "bitcoin",
     "transaction",
@@ -79,7 +80,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-lib.git"
+    "url": "https://github.com/coinshaz/unitedcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -97,7 +98,7 @@
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "litecore-build": "litecoin-project/litecore-build",
+    "litecore-build": "coinshaz/unitedcore-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
