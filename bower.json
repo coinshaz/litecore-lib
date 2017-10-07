@@ -6,13 +6,13 @@
   "authors": [
     "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your litecoin project.",
+  "description": "A pure, powerful core for your unitedcoin project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "litecoin",
-    "litecore",
+    "unitedcoin",
+    "unitedcore",
     "btc",
     "satoshi"
   ],

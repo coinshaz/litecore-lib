@@ -2,7 +2,7 @@
 
 ## Principles
 
-Litecoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Litecoin network allows for highly resilient litecoin infrastructure, and the developer community needs reliable, open-source tools to implement litecoin apps and services. Unitedcore provides a reliable API for JavaScript apps that need to interface with Litecoin.
+Unitedcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Unitedcoin network allows for highly resilient unitedcoin infrastructure, and the developer community needs reliable, open-source tools to implement unitedcoin apps and services. Unitedcore provides a reliable API for JavaScript apps that need to interface with Unitedcoin.
 
 To get started, just `npm install unitedcore` or `bower install unitedcore`.
 
@@ -17,10 +17,10 @@ To get started, just `npm install unitedcore` or `bower install unitedcore`.
 
 ## Payment Handling
 * [Using Different Units](unit.md)
-* [Acknowledging and Requesting Payments: Litecoin URIs](uri.md)
+* [Acknowledging and Requesting Payments: Unitedcoin URIs](uri.md)
 * [The Transaction Class](transaction.md)
 
-## Litecoin Internals
+## Unitedcoin Internals
 * [Scripts](script.md)
 * [Block](block.md)
 
@@ -42,7 +42,7 @@ Some functionality is implemented as a module that can be installed separately:
 * [Mnemonics](https://github.com/bitpay/bitcore-mnemonic)
 * [Elliptical Curve Integrated Encryption Scheme](https://github.com/bitpay/bitcore-ecies)
 * [Blockchain Explorers](https://github.com/bitpay/bitcore-explorers)
-* [Signed Messages](https://github.com/litecoin-project/unitedcore-message)
+* [Signed Messages](https://github.com/coinshaz/unitedcore-message)
 
 # Examples
 

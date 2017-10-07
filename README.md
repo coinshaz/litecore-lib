@@ -1,15 +1,15 @@
-Litecore Library
+Unitedcore Library
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/unitedcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/unitedcore-lib)
 [![Build Status](https://img.shields.io/travis/coinshaz/unitedcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/coinshaz/unitedcore-lib)
 [![Coverage Status](https://img.shields.io/coveralls/coinshaz/unitedcore-lib.svg?style=flat-square)](https://coveralls.io/r/coinshaz/unitedcore-lib)
 
-A pure and powerful JavaScript Litecoin library.
+A pure and powerful JavaScript Unitedcoin library.
 
 ## Principles
 
-Litecoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Litecoin network allows for highly resilient litecoin infrastructure, and the developer community needs reliable, open-source tools to implement litecoin apps and services.
+Unitedcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Unitedcoin network allows for highly resilient unitedcoin infrastructure, and the developer community needs reliable, open-source tools to implement unitedcoin apps and services.
 
 ## Get Started
 
@@ -45,7 +45,7 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Security
 
-We're using Litecore in production, as are [many others](http://unitedcore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+We're using Unitedcore in production, as are [many others](http://unitedcore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 If you find a security issue, please email security@bitpay.com.
 
@@ -94,4 +94,4 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 Code released under [the MIT license](https://github.com/coinshaz/unitedcore-lib/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The Unitedcoin Core Developers
