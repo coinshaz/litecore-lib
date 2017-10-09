@@ -21,3 +21,6 @@ unitedcore.min.js
 unitedcore.js.sig
 unitedcore.min.js.sig
 tests.js
+.vs/slnx.sqlite
+.vs/config/applicationhost.config
+.vs/ProjectSettings.json
